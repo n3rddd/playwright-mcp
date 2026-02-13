@@ -2,7 +2,10 @@
   "name": "playwright-cli",
   "version": "0.262.0",
   "description": "Deprecated package, use @playwright/cli instead.",
-  "repository": "github:microsoft/playwright-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microsoft/playwright-cli.git"
+  },
   "homepage": "https://playwright.dev",
   "scripts": {
     "lint": "echo OK",
