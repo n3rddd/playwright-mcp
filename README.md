@@ -727,6 +727,10 @@ And then in MCP client config, set the `url` to the HTTP endpoint:
 }
 ```
 
+## Security
+
+Playwright MCP is **not** a security boundary. See [MCP Security Best Practices](https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices) for guidance on securing your deployment.
+
 <details>
 <summary><b>Docker</b></summary>
 
